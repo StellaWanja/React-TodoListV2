@@ -4,7 +4,7 @@ import { AppContext } from '../components/stateprovider';
 
 const Home = () => {
 
-  const { state, setState } = useContext(AppContext);
+  const { state } = useContext(AppContext);
 
   return (
     <div>

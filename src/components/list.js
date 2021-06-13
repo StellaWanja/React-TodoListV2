@@ -10,7 +10,7 @@ const List = ({ todos, editItem, completedItem }) => {
             {todos.map((todo) => {
                 // access properties using object destructuring
                 const { id, title, completed } = todo;
-                const itemSaved = JSON.parse(localStorage.getItem(id))
+                //const itemSaved = JSON.parse(localStorage.getItem(id))
 
                 return (
                     <article key={id} className="todo-list">
